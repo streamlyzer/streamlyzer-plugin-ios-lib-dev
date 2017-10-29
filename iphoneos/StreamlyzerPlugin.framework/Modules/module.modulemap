@@ -1,0 +1,11 @@
+framework module StreamlyzerPlugin {
+  umbrella header "StreamlyzerPlugin.h"
+
+  export *
+  module * { export * }
+}
+
+module StreamlyzerPlugin.Swift {
+    header "StreamlyzerPlugin-Swift.h"
+    requires objc
+}

@@ -1,0 +1,11 @@
+framework module StreamlyzerPlugintvOS {
+  umbrella header "StreamlyzerPlugintvOS.h"
+
+  export *
+  module * { export * }
+}
+
+module StreamlyzerPlugintvOS.Swift {
+    header "StreamlyzerPlugintvOS-Swift.h"
+    requires objc
+}
